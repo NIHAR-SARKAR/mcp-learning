@@ -1,0 +1,6 @@
+/.venv
+/app/backup
+/.env
+__pycache__
+.venv
+/test

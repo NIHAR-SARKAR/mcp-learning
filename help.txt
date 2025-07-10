@@ -1,0 +1,8 @@
+create venv :
+python -m venv .venv
+
+activate venv:
+app\.venv\Scripts\activate
+
+run the server :
+uv run mcp dev server.py
