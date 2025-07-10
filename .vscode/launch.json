@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+     {
+      "name": "Debug MCP client",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/app/client.py",
+      "cwd": "${workspaceFolder}",            
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run MCP client with argument",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/app/client.py",
+      "args": ["get top 5 active talents and their manager info"],
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/app/.env"
+    }
+    
+  ]
+}
